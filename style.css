@@ -1,0 +1,45 @@
+body {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #E7BFA3;
+}
+
+.container {
+    border: 20px solid #F7CB2D;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-items: flex-start;
+    flex: 1 1 30px;
+}
+
+.options {
+    display: flex;
+    align-items:baseline;
+    justify-content:center;
+    width: 1015px;
+    gap: 50px;
+} 
+
+.reset {
+   margin-right: 40px;
+}
+
+.heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 75px;
+    margin-bottom: 50px;
+}
+
+button {
+    padding: 25px;
+    background-color: #2A96D2;
+    color: white;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
